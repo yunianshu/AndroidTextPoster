@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.coolstar.makeposter.widget.comboSeekBar.ComboSeekBar
+        xmlns:cbs="http://schemas.android.com/apk/res-auto"
+        cbs:unselectedLineHeight="2dp"
+        cbs:selectedLineHeight="2dp"
+        cbs:dotRadius="4dp"
+        cbs:multiline="false"
+        cbs:thumbHeight="16dp"
+        cbs:txtSize="10sp"
+        cbs:thumbWidth="16dp"
+        cbs:myColor="@color/colorAccent"
+        android:layout_margin="5dp"
+        android:id="@+id/menu_font_sbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/menu_font_alignpanel"
+        android:layout_below="@id/menu_font_sbar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/menu_font_left"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/menu_font_leftalign"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/menu_font_center"
+            android:layout_width="0dp"
+            android:text="@string/menu_font_centeralign"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/menu_font_right"
+            android:layout_width="0dp"
+            android:text="@string/menu_font_rightalign"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatCheckedTextView
+        android:id="@+id/menu_font_shadowcheckbox"
+        android:text="阴影效果"
+        android:checkMark="?android:attr/listChoiceIndicatorSingle"
+        android:textColor="@color/white"
+        android:textSize="@dimen/menu_text_size"
+        android:layout_below="@id/menu_font_alignpanel"
+        android:drawablePadding="5dp"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

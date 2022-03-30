@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ComboSeekBar">
+        <attr name="multiline" format="boolean" />
+        <attr name="myColor" format="color" />
+        <attr name="combothumb" format="reference" />
+        <attr name="txtSize" format="dimension" />
+        <attr name="thumbHeight" format="dimension" />
+        <attr name="thumbWidth" format="dimension" />
+        <attr name="selectedLineHeight" format="dimension" />
+        <attr name="unselectedLineHeight" format="dimension" />
+        <attr name="dotRadius" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">加文海报器</string>
+    <string name="main_loading">加载中...</string>
+    <string name="main_err">加载失败</string>
+    <string name="main_trans_imgname">main_trans_imgname</string>
+    <string name="poster_tab_text">文字</string>
+    <string name="poster_tab_font">样式</string>
+    <string name="poster_tab_color">颜色</string>
+    <string name="poster_tab_style">排版</string>
+    <string name="menu_text_addbtn">增加</string>
+    <string name="menu_text_ethint">请输入要绘制的文字</string>
+    <string name="menu_font_leftalign">左对齐</string>
+    <string name="menu_font_centeralign">居中</string>
+    <string name="menu_font_rightalign">右对齐</string>
+</resources>

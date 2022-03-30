@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="poster_panel_bg">#7F330066</color>
+    <color name="alpha_colorPrimary">#4F3F51B5</color>
+    <color name="alpha_colorPrimaryDark">#4F303F9F</color>
+    <color name="alpha_colorAccent">#4FFF4081</color>
+    <color name="white">#FFFFFF</color>
+</resources>
